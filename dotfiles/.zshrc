@@ -2,9 +2,8 @@ export PATH="/usr/local/bin:$PATH"
 
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
