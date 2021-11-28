@@ -79,7 +79,7 @@ ZSH_THEME="agnoster"
 plugins=(
     colorize
     git
-    osx
+    macos
     python
     zsh-autosuggestions
     zsh-syntax-highlighting
